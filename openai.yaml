@@ -1,0 +1,6 @@
+interface:
+  display_name: "teco-export-market-decision"
+  short_description: "面向具体产品和国家的出口市场评估、供应能力匹配与验证建议"
+  default_prompt: "Use $teco-export-market-decision to evaluate my product in the target country and identify the conditions and evidence needed before committing resources."
+policy:
+  allow_implicit_invocation: true
