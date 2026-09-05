@@ -1,5 +1,5 @@
 ---
-name: teco-export-market-decision
+name: teco-target-market-analyse
 description: 帮助外贸供应商判断具体产品在目标国家的开发价值，核实买家、采购要求、竞争替代和交付经济性，给出进入条件与小规模验证方案。用于出口市场选择和开发前决策，不用于单个客户背调、例行监测或发布内容。
 ---
 
