@@ -39,20 +39,20 @@
 将下面的安装指令发给 Codex：
 
 ```text
-请使用 skill-installer 安装这个 GitHub 仓库中的 teco-export-market-decision Skill：
-https://github.com/tecoatwork/teco-export-market-decision
+请使用 skill-installer 安装这个 GitHub 仓库中的 teco-target-market-analyse Skill：
+https://github.com/tecoatwork/teco-target-market-analyse
 ```
 
 此仓库根目录就是 Skill 目录；使用安装器时应定位根目录的 `SKILL.md`。
 
 ### 手动放入本地技能目录
 
-将整个仓库目录保存为技能目录下的 `teco-export-market-decision` 文件夹。Codex 常用的个人目录是 `~/.codex/skills/`；自定义环境请使用实际配置的目录。
+将整个仓库目录保存为技能目录下的 `teco-target-market-analyse` 文件夹。Codex 常用的个人目录是 `~/.codex/skills/`；自定义环境请使用实际配置的目录。
 
 确保目录结构是：
 
 ```text
-teco-export-market-decision/
+teco-target-market-analyse/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -68,7 +68,7 @@ teco-export-market-decision/
 ### 市场初筛
 
 ```text
-$teco-export-market-decision
+$teco-target-market-analyse
 帮我评估不锈钢厨房水槽进入沙特市场的机会。
 重点研究进口商和厨房设备经销商，先做初筛。
 没有提供的自身能力信息请标为未知。
@@ -77,7 +77,7 @@ $teco-export-market-decision
 ### 带供应商条件的评估
 
 ```text
-$teco-export-market-decision
+$teco-target-market-analyse
 评估我们的装饰墙板在德国经销商渠道的开发价值。
 以我附上的产品规格、报价和交期资料为依据，
 对比采购要求，列出最需要验证的三个问题。
@@ -86,7 +86,7 @@ $teco-export-market-decision
 ### 多市场比较
 
 ```text
-$teco-export-market-decision
+$teco-target-market-analyse
 比较同一产品在法国和西班牙的进入条件。
 采用相同客户类型和价格口径，不同口径的数据请分开说明。
 ```
